@@ -138,17 +138,18 @@ class _RegisterPageState extends State<RegisterPage> {
                       color: Colors.blue,
                       child: Text("DAFTAR"),
                       onPressed: () {
+                        print('Pendaftaran Berhasil!');
                         Fluttertoast.showToast(
                             msg: "Nama Lengkap : " +
                                 namaController.text.toString() +
                                 "\n" +
-                                "Username : " +
+                                "NIM : " +
                                 nimController.text.toString() +
                                 "\n" +
                                 "Email : " +
                                 emailController.text.toString() +
                                 "\n" +
-                                "nO. hp : " +
+                                "No. HP : " +
                                 nohpController.text.toString() +
                                 "\n" +
                                 "Jenis Kelamin :" +
