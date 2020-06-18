@@ -42,6 +42,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       height: 5,
                     ),
                     TextField(
+                      keyboardType: TextInputType.number,
                       controller: nimController,
                       decoration: InputDecoration(
                         hintText: 'NIM',
@@ -60,6 +61,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       height: 5,
                     ),
                     TextField(
+                      keyboardType: TextInputType.number,
                       controller: nohpController,
                       decoration: InputDecoration(
                         hintText: 'No. HP',
@@ -126,6 +128,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       height: 5,
                     ),
                     TextField(
+                      maxLines: 3,
                       controller: alamatController,
                       decoration: InputDecoration(
                         hintText: 'Alamat',
