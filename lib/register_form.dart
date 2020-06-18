@@ -23,6 +23,7 @@ class _RegisterPageState extends State<RegisterPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Register Form Mahasiswa"),
+        centerTitle: true,
       ),
       body: ListView(
         children: <Widget>[
